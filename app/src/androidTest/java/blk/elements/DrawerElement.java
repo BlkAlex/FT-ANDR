@@ -58,7 +58,7 @@ final public class DrawerElement {
 
     public DrawerElement open() {
         onView(allOf(withParent(withId(R.id.toolbar)), isAssignableFrom(ImageButton.class)))
-                .perform(click()); // TODO мы же не ищем легких путей 8-)
+                .perform(click());
         return this;
     }
 
