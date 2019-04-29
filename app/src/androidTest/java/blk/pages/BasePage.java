@@ -1,6 +1,7 @@
-package ru.tinkoff.fintech.mobile.pages;
+package blk.pages;
 
-import ru.tinkoff.fintech.mobile.elements.DrawerElement;
+
+import blk.elements.DrawerElement;
 
 public abstract class BasePage {
 
@@ -15,3 +16,4 @@ public abstract class BasePage {
     }
 
 }
+

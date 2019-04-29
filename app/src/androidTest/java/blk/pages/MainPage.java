@@ -1,4 +1,4 @@
-package ru.tinkoff.fintech.mobile.pages;
+package blk.pages;
 
 import android.app.Activity;
 
@@ -10,7 +10,9 @@ public class MainPage extends BasePage {
 
     public MainPage validate(Activity activity) {
         assertTrue(activity instanceof MainActivity);
+
         return this;
     }
+
 
 }
